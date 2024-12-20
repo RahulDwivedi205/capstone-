@@ -1,0 +1,170 @@
+body{
+    background-color:rgba(225, 225, 225, 0);
+    
+
+}
+
+.header{
+    justify-content: end;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    font-family: 'DotGothic16', sans-serif;;
+    flex-wrap: wrap;
+    overflow: auto;
+
+
+}
+#topp span{
+    font-size: 20px;
+}
+
+#topp{
+    display: flex;
+    gap: 32px;
+    justify-content:space-between;
+}
+
+.header a{
+    color:rgb(31, 30, 30);
+    text-decoration: none;
+    gap:32px;
+}
+
+.H1{
+    font-size: 28px!important;
+}
+
+h1{
+    font-family: 'DotGothic16', sans-serif;
+    justify-content: center;
+    text-align: center;
+    font-size: 120px;
+
+}
+
+h1:hover{
+    color: blue;
+
+
+}
+.image{
+    justify-content: center;
+    text-align: center;
+    padding: 10px; 
+    
+}
+#upper-image{
+    width: 1344px;
+    height: 672px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    height: auto;
+    overflow:hidden;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 5px solid black;
+
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    width: Fill (1,344px)px;
+    height: Hug (1,191px)px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+
+}
+
+.testing img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    border: 5px solid  black;
+}
+
+    
+.testing p{
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+
+
+.about{
+    font-family: 'DotGothic16', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+ P{
+    font-family: Arial, sans-serif;
+    text-align:right;
+    padding-right: 10px;
+}
+.contact-container{
+    justify-content: center;
+    text-align: center;
+
+    margin-bottom: 10px;
+
+
+}
+
+.input-boxes{
+    
+
+    background-color: transparent;
+
+}
+
+.send-btn{
+    color: white;
+    background-color: blue;
+    margin: 10px;
+    border-radius: 8px;
+}
+.footer p{
+    justify-content: end;
+    text-align: left;
+}
+ .footer {
+    justify-content:end;
+    text-align: right;
+}
+
+
+@media (max-width: 768px) {
+    .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    h1{
+        font-size: medium;
+    }
+    
+    
+}
+@media (max-width: 480px) {
+    .image-grid {
+        grid-template-columns: 1fr;
+
+    }
+    h1{
+        font-size: small;
+    }
+}
+
+.testing{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+}
